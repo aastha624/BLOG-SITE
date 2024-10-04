@@ -55,6 +55,7 @@ export default function AppContextProvider({ children }) {
     };
 
     //step2 pass provider
+    // syntax use kari children uper provide kari nakhyu
 
     return <AppContext.Provider value={value}>
         {children}
